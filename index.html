@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth no-scrollbar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Cheung</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav
+        class="hidden md:flex justify-around py-4 bg-white/80 backdrop-blur-md shadow-md w-full fixed top-0 left-0 right-0 z-10">
+        <div class="items-center hidden space-x-8 md:flex">
+            <a href="#home" class="flex text-gray-600 hover:text-blue-500">
+                Home
+            </a>
+
+            <a href="#projects" class="flex text-gray-600 hover:text-blue-500">
+                Projects
+            </a>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-5 lg:max-w-screen-sm">
+        <div id="home" class="h-screen flex justify-center flex-col">
+            <h2 class="text-3xl font-bold text-center">Jay Cheung</h2>
+            <p class="text-center py-2">
+                I am a Full Stack Web Developer based in The Netherlands. I have been using
+                <span class="font-bold">PHP</span>,
+                <span class="font-bold">MySQL</span>,
+                <span class="font-bold">Laravel</span>,
+                <span class="font-bold">Tailwind CSS</span> and a bit of
+                <span class="font-bold">JavaScript</span> for my work.
+            </p>
+        </div>
+
+        <div id="projects" class="min-h-screen flex justify-center flex-col pb-5">
+            <h2 class="text-3xl font-bold text-center pb-2 md:pt-14">Projects</h2>
+
+            <div id="cards" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <a href="https://github.com/praxand/mkb-digital-deepdive"
+                    class="block p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:scale-105 transition duration-300">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                        MKB Digital DeepDive
+                    </h5>
+
+                    <p class="font-normal text-gray-700">
+                        DeepDive project for MR.PEOPLE
+                    </p>
+                </a>
+
+                <a href="https://github.com/praxand/laravel-blog"
+                    class="block p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:scale-105 transition duration-300">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                        Laravel Blog
+                    </h5>
+
+                    <p class="font-normal text-gray-700">
+                        Laravel blog application
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

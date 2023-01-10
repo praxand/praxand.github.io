@@ -1,0 +1,24 @@
+{
+  "name": "praxand.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./css/tailwind.css -o ./css/style.css --watch",
+    "build": "npx tailwindcss -i ./css/tailwind.css -o ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praxand/praxand.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praxand/praxand.github.io/issues"
+  },
+  "homepage": "https://github.com/praxand/praxand.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
