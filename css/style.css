@@ -737,6 +737,10 @@ video {
   padding-right: 1rem;
 }
 
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -921,10 +925,6 @@ video {
 
   .md\:p-0 {
     padding: 0px;
-  }
-
-  .md\:pt-14 {
-    padding-top: 3.5rem;
   }
 
   .md\:text-sm {
